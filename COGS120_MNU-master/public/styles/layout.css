@@ -1,0 +1,139 @@
+.header-container {
+    height: 150px;
+}
+
+.app-header {
+    background-color: #B00020;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.app-title {
+    color: white;
+    font-size: 50px;
+}
+
+.search-container {
+    margin-top: 20px
+}
+
+.search-bar {
+    border: 1px solid black;
+    width: 100%;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #B00020;
+  width: 100%;
+  margin-left: : 25%;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-container > div {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  width: 100%;
+  margin: 10px;
+ 
+  /*text-align: cente;
+  line-height: 75px;
+  font-size: 30px;
+  */
+}
+
+.spacer-top {
+    margin-top: 10px;
+}
+
+.spacer-bottom {
+    margin-bottom: 10px;
+}
+
+.white-background {
+    background-color: white !important;
+}
+
+.picture-placeholder {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.description-placeholder {
+    width: 75%;
+    height: 200px;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.review-button {
+    background: red;
+    padding: 30px;
+}
+
+.review-placeholder {
+    width: 75%;
+    height: 100px;
+    border: 1px solid red;
+    padding: 20px;
+}
+
+.menu-item-pic {
+    height: 100%;
+    width: 100%;
+}
+
+.star-review {
+    display: flex;
+    justify-content: center;
+}
+
+.star-box {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.review-text {
+    width: 500px;
+    height: 500px;
+}
+
+.r-image-container {
+    height: 500px;
+    align-items: normal !important;
+}
+
+.restaurant-info {
+    height: 300px;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.popular-dishes {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.popular-dish-picture {
+    height: 100%;
+    width: 100px;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.list-layout{
+    display: flex; 
+    border: 1px solid black;
+    margin: 10px;
+    justify-content: left;
+    align-items: left; 
+}
